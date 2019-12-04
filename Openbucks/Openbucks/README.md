@@ -8,15 +8,15 @@ Manual install
 
 2. Enable Payment Module
 
-	```bash
-	$ php bin/magento module:enable Openbucks_Openbucks --clear-static-content
-	$ php bin/magento setup:upgrade
-	 ```
+    ```bash
+    $ php bin/magento module:enable Openbucks_Openbucks --clear-static-content
+    $ php bin/magento setup:upgrade
+    ```
 3. Deploy Magento Static Content (Execute If needed)
 
-	```bash
-	$ php bin/magento setup:static-content:deploy
-	```
+    ```bash
+    $ php bin/magento setup:static-content:deploy
+    ```
 Installation via Composer
 =======
 
@@ -25,8 +25,8 @@ Installation via Composer
 2. Enter following commands to install module:
 
     ```bash
-    composer config repositories.cloudipsp git https://github.com/cloudipsp/magento2.git
-    composer require cloudipsp/magento2:dev-master
+    composer config repositories.openbucks git https://github.com/openbucks/magento.git
+    composer require openbucks/magento2:dev-master
     ```
    Wait while dependencies are updated.
 
@@ -39,12 +39,11 @@ Installation via Composer
 4. Enable and configure Openbucks in Magento Admin under Stores/Configuration/Payment Methods/Openbucks
 
 !Note: If it needed 
-	```bash
+    ```bash
     php bin/magento setup:static-content:deploy
     ```
 
 ## Installation via Magento Marketplace
-=======
 
 https://marketplace.magento.com/openbucks.html
 
