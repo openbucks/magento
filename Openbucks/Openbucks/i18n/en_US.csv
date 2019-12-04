@@ -1,0 +1,11 @@
+Configure,Configure
+Payment for the order #,Payment for the order #
+Payment for ,Payment for
+"The authorized amount is %1.","The authorized amount is %1."
+"Allowed Shipping Methods","Allowed Shipping Methods"
+Authorize,Authorize
+Payment,Payment
+Place Order,Place Order
+"Payment capturing error.","Payment capturing error."
+"Payment failed. Please try again.","Payment failed. Please try again."
+"Request Parameter is not matched.","Request Parameter is not matched."

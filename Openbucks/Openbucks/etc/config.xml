@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <openbucks>
+                <model>Openbucks\Openbucks\Model\Openbucks</model>
+                <active>1</active>
+                <openbucks_public_key>OPENBUCKS_PUBLIC_KEY</openbucks_public_key>
+                <openbucks_private_key>OPENBUCKS_PUBLIC_KEY</openbucks_private_key>
+                <openbucks_sandbox>1</openbucks_sandbox>
+                <title>Openbucks</title>
+                <openbucks_large_icon>1</openbucks_large_icon>
+                <openbucks_debug>1</openbucks_debug>
+            </openbucks>
+        </payment>
+    </default>
+</config>

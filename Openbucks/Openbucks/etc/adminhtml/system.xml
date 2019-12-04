@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="payment">
+            <group id="openbucks" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <comment><![CDATA[Securely accept cash and gift card payments using CVS/Pharmacy or Dollar General in the U.S.<br>with the Openbucks payment gateway plugin.]]></comment>
+                <label><![CDATA[<strong>Openbucks</strong>]]></label>
+                <fieldset_css>complex openbucks-payment-section</fieldset_css>
+                <frontend_model>Magento\Paypal\Block\Adminhtml\System\Config\Fieldset\Payment</frontend_model>
+                <group id="credentials" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Credentials</label>
+                    <field id="active" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="0">
+                        <label>Enabled</label>
+                        <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                        <config_path>payment/openbucks/active</config_path>
+                    </field>
+                    <field id="openbucks_public_key" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Public Key</label>
+                        <config_path>payment/openbucks/openbucks_public_key</config_path>
+                    </field>
+                    <field id="openbucks_private_key" translate="label" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Secret Key</label>
+                        <config_path>payment/openbucks/openbucks_private_key</config_path>
+                    </field>
+                </group>
+                <group id="options" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Options</label>
+                    <field id="openbucks_sandbox" translate="label" type="select" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="0">
+                        <label>Use Sandbox?</label>
+                        <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                        <config_path>payment/openbucks/openbucks_sandbox</config_path>
+                    </field>
+                    <field id="order_status" translate="label" type="select" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="0">
+                        <label>New Order Status</label>
+                        <source_model>Magento\Sales\Model\Config\Source\Order\Status</source_model>
+                    </field>
+                </group>
+                <group id="advanced" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Advanced</label>
+                    <field id="openbucks_debug" translate="label" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="0">
+                        <label>Enable Debug Messages</label>
+                        <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                        <config_path>payment/openbucks/openbucks_debug</config_path>
+                    </field>
+                    <field id="openbucks_postback" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Postback</label>
+                    </field>
+                </group>
+            </group>
+        </section>
+    </system>
+</config>
