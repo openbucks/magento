@@ -6,6 +6,6 @@
  */
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Openbucks_Openbucks',
+    'Openbucks_Magento2',
     __DIR__
 );

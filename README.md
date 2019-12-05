@@ -16,7 +16,7 @@ Manual install
 2. Enable Payment Module
 
     ```bash
-    $ php bin/magento module:enable Openbucks_Openbucks --clear-static-content
+    $ php bin/magento module:enable Openbucks_Magento2 --clear-static-content
     $ php bin/magento setup:upgrade
     ```
 3. Deploy Magento Static Content (Execute If needed)
@@ -40,7 +40,7 @@ Installation via Composer
 3. Enter following commands to enable module:
 
     ```bash
-    php bin/magento module:enable Openbucks_Openbucks --clear-static-content
+    php bin/magento module:enable Openbucks_Magento2 --clear-static-content
     php bin/magento setup:upgrade
     ```
 4. Enable and configure Openbucks in Magento Admin under Stores/Configuration/Payment Methods/Openbucks

@@ -11,7 +11,7 @@ define(
         rendererList.push(
             {
                 type: 'openbucks',
-                component: 'Openbucks_Openbucks/js/view/payment/method-renderer/openbucks-method'
+                component: 'Openbucks_Magento2/js/view/payment/method-renderer/openbucks-method'
             }
         );
         /** Add view logic here if needed */

@@ -2,6 +2,6 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column"
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <referenceContainer name="page.wrapper">
-        <block class="Openbucks\Openbucks\Block\Widget\Redirect" template="Openbucks_Openbucks::html/openbucks_form.phtml"/>
+        <block class="Openbucks\Openbucks\Block\Widget\Redirect" template="Openbucks_Magento2::html/openbucks_form.phtml"/>
     </referenceContainer>
 </page>

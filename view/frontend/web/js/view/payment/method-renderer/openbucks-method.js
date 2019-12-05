@@ -29,7 +29,7 @@ define(
 
         return Component.extend({
             defaults: {
-                template: 'Openbucks_Openbucks/payment/openbucks'
+                template: 'Openbucks_Magento2/payment/openbucks'
             },
             placeOrder: function (data, event) {
                 if (event) {
