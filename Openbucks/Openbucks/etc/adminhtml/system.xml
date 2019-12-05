@@ -3,7 +3,7 @@
     <system>
         <section id="payment">
             <group id="openbucks" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
-                <comment><![CDATA[Securely accept cash and gift card payments using CVS/Pharmacy or Dollar General in the U.S.<br>with the Openbucks payment gateway plugin.]]></comment>
+                <comment><![CDATA[Securely accept cash and gift card payments using CVS/Pharmacy or Dollar General in the U.S.<br>with the Openbucks payment gateway extension.]]></comment>
                 <label><![CDATA[<strong>Openbucks</strong>]]></label>
                 <fieldset_css>complex openbucks-payment-section</fieldset_css>
                 <frontend_model>Magento\Paypal\Block\Adminhtml\System\Config\Fieldset\Payment</frontend_model>

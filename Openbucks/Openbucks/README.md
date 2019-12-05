@@ -1,12 +1,12 @@
 # Magento 2
 Openbucks payment module for magento 2.X
 
-Securely accept cash and gift card payments in the U.S. with the Openbucks payment gateway plugin. Openbucks has partnered with major retailers in the U.S. such as CVS/Pharmacy and Dollar General to make both gift card and cash payments available for online goods and services.
+Securely accept cash and gift card payments in the U.S. with the Openbucks payment gateway extension. Openbucks has partnered with major retailers in the U.S. such as CVS/Pharmacy and Dollar General to make both gift card and cash payments available for online goods and services.
 
 # How to get started
 
-1. Install the plugin
-2. Contact sales@openbucks.com to setup your account and obtain keys to activate the plugin
+1. Install the extension
+2. Contact sales@openbucks.com to setup your account and obtain keys to activate the extension
 
 Manual install
 =======
@@ -54,8 +54,8 @@ Installation via Composer
 
 https://marketplace.magento.com/openbucks.html
 
-## Plugin Configuration
+## Extension Configuration
 
-Enable and configure Openbucks plugin in Magento Admin under `Stores / Configuration / Sales / Payment Methods / Openbucks`.
+Enable and configure Openbucks extension in Magento Admin under `Stores / Configuration / Sales / Payment Methods / Openbucks`.
 
 ## Updates
