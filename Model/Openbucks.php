@@ -21,8 +21,8 @@ class Openbucks extends \Magento\Payment\Model\Method\AbstractMethod
      */
     protected $_code = 'openbucks';
 
-    protected $_gateRedirectUrl = "https://pay-staging.openbucks.com/pwgc_uri_v3.php";
-    protected $_demoGateRedirectUrl = "https://demo-pay-staging.openbucks.com/pwgc_uri_v3.php";
+    protected $_gateRedirectUrl = "https://pay.openbucks.com/pwgc_uri_v3.php";
+    protected $_demoGateRedirectUrl = "https://demo-pay.openbucks.com/pwgc_uri_v3.php";
 
     protected $_encryptor;
 
