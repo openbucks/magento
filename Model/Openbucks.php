@@ -186,7 +186,7 @@ class Openbucks extends \Magento\Payment\Model\Method\AbstractMethod
         $token                = date("Y-m-d H:i:s") . uniqid('', true);
         $amount               = number_format($this->getAmount($orderId), 2, '.', '');
         $customer_email       = false;
-        $anonymous_id         = $customer_email ? md5($customer_email) : md5(time());
+        $anonymous_id         = hash('sha256', time());
         $merchant_tracking_id = $orderId . "_" . time();
 
         $currency = $this->getCurrencyCode($orderId);
